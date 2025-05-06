@@ -1,0 +1,70 @@
+/* Projects.css — Japandi Tile Grid */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background-color: #faf8f5;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  font-size: 1.25rem;
+  color: #2c2c2c;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #5a5a5a;
+  margin-bottom: 1rem;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-badge {
+  background: #edeae5;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  color: #4a4a4a;
+  border-radius: 6px;
+}
+
+.view-button {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #9b8b7e;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.view-button:hover {
+  color: #6d5e51;
+}
+
+.project-heading {
+  text-align: center;
+  font-size: 2.25rem;
+  color: #2c2c2c;
+  margin-bottom: 2rem;
+  font-family: serif;
+}
