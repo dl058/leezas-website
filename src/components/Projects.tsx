@@ -1,4 +1,3 @@
-// Projects.tsx (updated for tile layout)
 import React from "react";
 import { LazyMotion, domAnimation, m } from "framer-motion";
 import "../styles/Projects.css";
@@ -6,36 +5,25 @@ import { Project } from "../types";
 
 const projects: Project[] = [
   {
-    title: "Light Switch",
-    description: "An interactive light switch application built with React",
-    url: "https://light-switch-4cc83.web.app/",
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
+    title: "Google Docs Clone",
+    description:
+      "A real-time collaborative document editing app with user authentication, live presence, and organizational sharing. Built with Convex, Clerk, and Next.js.",
+    url: "https://docs-project-phi.vercel.app", // 🔗 Live project link
+    technologies: ["Next.js", "Convex", "Clerk", "Tailwind CSS", "TypeScript"],
   },
   {
-    title: "Ice Cream Wars",
-    description: "A fun ice cream voting application",
-    url: "https://ice-cream-wars.web.app/",
-    technologies: ["React", "TypeScript", "CSS"],
-  },
-  {
-    title: "Cat Nap",
-    description: "A relaxing cat-themed application",
-    url: "https://cat-nap-c19f7.web.app/",
+    title: "Spellbound Sweets",
+    description:
+      "A whimsical cake shop app with animated layer-building and interactive effects, themed around magical dessert flavors.",
+    url: "https://cake-proj-2eff8.web.app/",
     technologies: ["React", "JavaScript", "CSS"],
   },
   {
     title: "Unplanned Adventure",
     description:
-      "A social media feed application with post creation and interaction features",
+      "A social feed app where users can create, like, and interact with posts. Focused on spontaneous connection and mobile responsiveness.",
     url: "https://final-project-fa2ee.web.app/",
     technologies: ["React", "Firebase", "Material-UI", "JavaScript"],
-  },
-  {
-    title: "Spellbound Sweets",
-    description:
-      "A delightful cake shop application showcasing delicious treats",
-    url: "https://cake-proj-2eff8.web.app/",
-    technologies: ["React", "JavaScript", "CSS"],
   },
 ];
 
