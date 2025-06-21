@@ -5,7 +5,7 @@ import { Project } from "../types";
 
 const projects: Project[] = [
   {
-    title: "Google Docs Clone",
+    title: "InkSync",
     description:
       "A real-time collaborative document editing app with user authentication, live presence, and organizational sharing. Built with Convex, Clerk, and Next.js.",
     url: "https://docs-project-phi.vercel.app", // 🔗 Live project link
